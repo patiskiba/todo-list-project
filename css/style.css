@@ -8,6 +8,8 @@ body {
     background-color: white;
     padding: 2rem;
     border-radius: 2rem;
+    min-height: 16rem;
+    
 }
 
 .categoryInfo {
