@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(255, 228, 232);
+}
+
+
+
+.categoryContainer-col {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.categoryInfo {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.createTaskInCategory-btn {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: 0;
+}

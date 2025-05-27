@@ -9,12 +9,42 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="container-fluid">
+
+    <header role="banner" class="container-fluid mb-5">
         <div class="row">
-            <div class="col-12">
-                <h1>TODO List</h1>
+            <div class="col-12 mb-4">
+                <h1 class="text-center">TODO List</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center gap-2">
+                <button id="createCategory-cta">Create Category +</button>
+                <button id="createTask-cta">Create Task +</button>
             </div>
         </div>
     </header>
+
+    <main class="container-fluid">
+        <div class="row" id="allCategories-containerRow">
+            <div class="col-12" id="allCategories-containerCol">
+                <!-- Category card -->
+                <div class="row categoryContainer-row">
+                    <div class="categoryContainer-col col-12 col-lg-6 col-xl-4">
+                        <div class="categoryInfo">
+                            <h3>Untitled Category</h3>
+                            <button class="createTaskInCategory-btn">+</button>
+                        </div>
+                        <div class="categoryList">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
+
+<!-- <div class="col-12 starting-info-col d-flex justify-content-center mt-5">
+                <h4 id="starting-info">(Create a new category to get started)</h4>
+            </div> -->
