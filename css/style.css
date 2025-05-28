@@ -1,7 +1,10 @@
-body {
+.mainBackgroundColor {
     background-color: rgb(255, 228, 232);
 }
 
+.fontTitleColor {
+    color: rgb(139, 114, 139);
+}
 
 
 .categoryContainer-col {
@@ -16,11 +19,33 @@ body {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.categoryTitle {
+    max-width: 75%;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    border: 0;
 }
 
 .createTaskInCategory-btn {
     height: 2.5rem;
     width: 2.5rem;
+    font-weight: 600;
     border-radius: 50%;
+    border: 2px solid rgb(139, 114, 139);
+    color:  rgb(139, 114, 139);
+    background-color: white;
+}
+
+.categoryList ul {
+    list-style-type:none;
+}
+
+.listText {
+    font-size: 1rem;
+    font-weight: 500;
     border: 0;
 }
