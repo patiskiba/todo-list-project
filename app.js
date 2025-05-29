@@ -8,7 +8,9 @@ console.log(createTaskButtons);
 let categoryLists = document.querySelector(".categoryList ul");
 console.log(categoryLists);
 
-
+//? Start of 
+let checkboxes = document.querySelectorAll(".checkbox");
+console.log(checkboxes);
 
 //? Event listener for each create task button
 
@@ -21,11 +23,22 @@ console.log(categoryLists);
         let newListItemInner = `<input type="checkbox" class="checkbox"> <input type="text" placeholder="Task list item" class="listText">`;
 
         newListItem.innerHTML = newListItemInner;
-
-        //? If checkbox checked
-        const checkboxes = document.querySelectorAll(".checkbox");
+        
+        checkboxes = document.querySelectorAll(".checkbox");
         console.log(checkboxes);
         
-        
+        for (box of checkboxes) {
+        box.addEventListener("change", () => {
+            if (box.checked) {
+                console.log("Checked.");
+                newListItem.remove();
+                
+            }
+        })
+}
     })
+
+
+
+
 
