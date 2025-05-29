@@ -26,6 +26,6 @@ console.log(categoryLists);
         const checkboxes = document.querySelectorAll(".checkbox");
         console.log(checkboxes);
         
-        }
+        
     })
 
