@@ -18,7 +18,14 @@ console.log(categoryLists);
         
         categoryLists.appendChild(newListItem);
         
-        let newListItemInner = `<input type="checkbox"> <input type="text" placeholder="Task list item" class="listText">`;
+        let newListItemInner = `<input type="checkbox" class="checkbox"> <input type="text" placeholder="Task list item" class="listText">`;
 
         newListItem.innerHTML = newListItemInner;
+
+        //? If checkbox checked
+        const checkboxes = document.querySelectorAll(".checkbox");
+        console.log(checkboxes);
+        
+        }
     })
+
