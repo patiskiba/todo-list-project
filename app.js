@@ -1,3 +1,5 @@
+const createCategoryButton = document.getElementById("createCategoryButton");
+console.log(createCategoryButton);
 
 //! Create tasks
 
@@ -38,7 +40,6 @@ console.log(checkboxes);
 }
     })
 
-
-
-
-
+createCategoryButton.addEventListener("click", () => {
+    
+})
