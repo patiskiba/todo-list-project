@@ -38,8 +38,7 @@ console.log(checkboxes);
             }
         })
 }
-    })
-
+})
 createCategoryButton.addEventListener("click", () => {
     
 })
